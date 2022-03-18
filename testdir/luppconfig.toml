@@ -1,0 +1,3 @@
+[compiler]
+out_dir = "out"
+root_dir = "src"

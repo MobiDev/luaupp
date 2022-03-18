@@ -1,0 +1,10 @@
+function hello(a: number)
+	return function(str: string)
+		return str:rep(a)
+	end
+end
+
+@hello(2)
+local world = 'hello'
+
+print(world)
